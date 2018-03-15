@@ -1,0 +1,40 @@
+{
+  "name": "react-exp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-client": "^2.2.7",
+    "apollo-test-utils": "^0.3.2",
+    "axios": "^0.18.0",
+    "dropzone": "^5.4.0",
+    "font-awesome": "^4.7.0",
+    "graphql-tools": "^2.23.0",
+    "lodash": "^4.17.5",
+    "material-ui": "^0.20.0",
+    "moment": "^2.21.0",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-datepicker": "^1.2.2",
+    "react-dom": "^16.2.0",
+    "react-dropzone": "^4.2.9",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "semantic-ui-css": "^2.3.0",
+    "semantic-ui-react": "^0.78.3",
+    "socket.io": "^2.0.4"
+  },
+  "scripts": {
+    "start": "set PORT=3006 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.4.1"
+  }
+}
